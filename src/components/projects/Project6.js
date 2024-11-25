@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Project1 = () => {
+const Project6 = () => {
   return (
     <div className="min-h-screen bg-gray-50 pt-20">
       <div className="max-w-7xl mx-auto px-4">
         <div className="bg-white rounded-lg shadow-lg p-8">
           {/* Project Header */}
-          <h1 className="text-4xl font-bold mb-4">Customer Authentication Decision Engine</h1>
+          <h1 className="text-4xl font-bold mb-4">Price Optimization in Offline Retail</h1>
           <div className="flex gap-2 mb-8">
             {['React', 'Node.js', 'MongoDB'].map((tech, index) => (
               <span key={index} className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
@@ -38,4 +38,4 @@ const Project1 = () => {
   );
 };
 
-export default Project1;
+export default Project6;

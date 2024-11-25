@@ -3,42 +3,62 @@ import profilePic from './images/base-profile-picture.JPG';
 import Journey from './components/Journey';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Project1 from './components/projects/Project1';
+import Project2 from './components/projects/Project2';
+import Project3 from './components/projects/Project3';
+import Project4 from './components/projects/Project4';
+import Project5 from './components/projects/Project5';
+import Project6 from './components/projects/Project6';
+import Project7 from './components/projects/Project7';
 
 const projects = [
   {
     id: 1,
-    title: "Project 1",
-    description: "Brief project description",
+    title: "Customer Authentication Decision Engine",
+    description: "A centralized platform to monitor fraudulent activity",
     techStack: ["React", "Node.js", "MongoDB"],
-    link: "/project1"
+    link: "/customer-authentication-decision-engine"
   },
   {
     id: 2,
-    title: "Project 2",
-    description: "Brief project description",
+    title: "SMB Credit Collection Model",
+    description: "A Machine Learning model to estimate credit risk",
     techStack: ["React", "Node.js", "MongoDB"],
-    link: "/projects/project-2"
+    link: "/smb-credit-collection-model"
   },
   {
     id: 3,
-    title: "Project 3",
-    description: "Brief project description",
+    title: "Generative AI Marketing Agent",
+    description: "A ChatGPT-enabled intelligent marketing agent to find leads",
     techStack: ["React", "Node.js", "MongoDB"],
-    link: "/projects/project-3"
+    link: "/generative-ai-marketing-agent"
   },
   {
     id: 4,
-    title: "Project 4",
-    description: "Brief project description",
+    title: "Digital Fingerprinting",
+    description: "A vendor-based approach to solving authentication",
     techStack: ["React", "Node.js", "MongoDB"],
-    link: "/projects/project-4"
+    link: "/device-fingerprinting"
   },
   {
     id: 5,
-    title: "Project 5",
-    description: "Brief project description",
+    title: "Call Classification",
+    description: "NLP-model to help accelerate customer service",
     techStack: ["React", "Node.js", "MongoDB"],
-    link: "/projects/project-5"
+    link: "/call-classification"
+  },
+  {
+    id: 6,
+    title: "Price Optimization in Offline Retail",
+    description: "A price indexing tool for dynamic pricing in stores",
+    techStack: ["React", "Node.js", "MongoDB"],
+    link: "/price-optimization-in-offline-retail"
+  },
+  {
+    id: 7,
+    title: "Carbon Footprint Reduction in Multi-Modal Supply Chain",
+    description: "A route optimization for large-scale supply chain to reduce carbon footprint",
+    techStack: ["React", "Node.js", "MongoDB"],
+    link: "/carbon-footprint-reduction"
   }
 ];
 
@@ -122,7 +142,7 @@ function App() {
                   <div className="overflow-hidden px-12">
                     <div 
                       className="flex gap-6 transition-transform duration-500 ease-in-out"
-                      style={{ transform: `translateX(-${currentIndex * (100 / 3)}%)` }}
+                      style={{ transform: `translateX(calc(-${currentIndex * (100 / 3)}% - ${currentIndex * 24}px))` }}
                     >
                       {projects.map((project) => (
                         <Link 
@@ -204,7 +224,13 @@ function App() {
         } />
 
         {/* Project Routes */}
-        <Route path="/project1" element={<Project1 />} />
+        <Route path="/customer-authentication-decision-engine" element={<Project1 />} />
+        <Route path="/smb-credit-collection-model" element={<Project2 />} />
+        <Route path="/generative-ai-marketing-agent" element={<Project3 />} />
+        <Route path="/device-fingerprinting" element={<Project4 />} />
+        <Route path="/call-classification" element={<Project5 />} />
+        <Route path="/price-optimization-in-offline-retail" element={<Project6 />} />
+        <Route path="/carbon-footprint-reduction" element={<Project7 />} />
       </Routes>
     </Router>
   );
