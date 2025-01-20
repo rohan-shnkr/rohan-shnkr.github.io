@@ -15,7 +15,7 @@ const projects = [
     id: 1,
     title: "Customer Authentication Decision Engine",
     description: "A centralized platform to monitor fraudulent activity",
-    techStack: ["React", "Node.js", "MongoDB"],
+    techStack: ["Technical Product Management", "Stakeholder Management", "System Design"],
     link: "/customer-authentication-decision-engine"
   },
   {
