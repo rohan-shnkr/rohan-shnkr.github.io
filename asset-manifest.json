@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b2cd0fdc.css",
-    "main.js": "/static/js/main.ff8b42d5.js",
+    "main.css": "/static/css/main.55981072.css",
+    "main.js": "/static/js/main.fb0ec356.js",
     "static/js/453.b85ea79e.chunk.js": "/static/js/453.b85ea79e.chunk.js",
     "static/media/base-profile-picture.JPG": "/static/media/base-profile-picture.2b069a3a4d2779fe6cf1.JPG",
     "static/media/Capital-One.jpg": "/static/media/Capital-One.6f1e232507d0ffac2868.jpg",
@@ -9,12 +9,12 @@
     "static/media/chicago-booth-official-school-logo.png": "/static/media/chicago-booth-official-school-logo.4e4ad12d98512563189b.png",
     "static/media/udaan-logo.png": "/static/media/udaan-logo.5cb2e23091021d571e53.png",
     "index.html": "/index.html",
-    "main.b2cd0fdc.css.map": "/static/css/main.b2cd0fdc.css.map",
-    "main.ff8b42d5.js.map": "/static/js/main.ff8b42d5.js.map",
+    "main.55981072.css.map": "/static/css/main.55981072.css.map",
+    "main.fb0ec356.js.map": "/static/js/main.fb0ec356.js.map",
     "453.b85ea79e.chunk.js.map": "/static/js/453.b85ea79e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2cd0fdc.css",
-    "static/js/main.ff8b42d5.js"
+    "static/css/main.55981072.css",
+    "static/js/main.fb0ec356.js"
   ]
 }
