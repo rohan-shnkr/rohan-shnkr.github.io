@@ -24,7 +24,7 @@ const Project2 = () => {
             <h2 className="text-2xl font-bold mb-4">1. Problem Context</h2>
             <p>
               In 2019, Udaan, a Series D B2B e-commerce company, embarked on a mission to enhance
-              its lending platform for over 2 million SMB retailers in India. The key challenges
+              its lending platform for over 2 million SMB (Small and Medium-sized Businesses) retailers in India. The key challenges
               were twofold: assessing creditworthiness in a largely undocumented market and
               optimizing payment collection in a cash-heavy ecosystem. My role as a data scientist
               was to develop scalable machine learning solutions to address these challenges.
