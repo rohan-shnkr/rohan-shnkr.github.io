@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.55981072.css",
-    "main.js": "/static/js/main.fb0ec356.js",
+    "main.js": "/static/js/main.21bc0185.js",
     "static/js/453.b85ea79e.chunk.js": "/static/js/453.b85ea79e.chunk.js",
     "static/media/base-profile-picture.JPG": "/static/media/base-profile-picture.2b069a3a4d2779fe6cf1.JPG",
     "static/media/Capital-One.jpg": "/static/media/Capital-One.6f1e232507d0ffac2868.jpg",
@@ -10,11 +10,11 @@
     "static/media/udaan-logo.png": "/static/media/udaan-logo.5cb2e23091021d571e53.png",
     "index.html": "/index.html",
     "main.55981072.css.map": "/static/css/main.55981072.css.map",
-    "main.fb0ec356.js.map": "/static/js/main.fb0ec356.js.map",
+    "main.21bc0185.js.map": "/static/js/main.21bc0185.js.map",
     "453.b85ea79e.chunk.js.map": "/static/js/453.b85ea79e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55981072.css",
-    "static/js/main.fb0ec356.js"
+    "static/js/main.21bc0185.js"
   ]
 }
