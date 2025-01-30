@@ -28,16 +28,16 @@ const projects = [
   },
   {
     id: 3,
-    title: "Generative AI Marketing Agent",
+    title: "Market Research AI Agent",
     description: "A ChatGPT-enabled intelligent marketing agent to find leads",
-    techStack: ["React", "Node.js", "MongoDB"],
+    techStack: ["Generative AI", "Web Scraping", "Automation"],
     link: "/generative-ai-marketing-agent"
   },
   {
     id: 4,
-    title: "Digital Fingerprinting",
+    title: "Securing Digital Identities",
     description: "A vendor-based approach to solving authentication",
-    techStack: ["React", "Node.js", "MongoDB"],
+    techStack: ["Digital Fingerprinting", "Security", "Machine Learning"],
     link: "/device-fingerprinting"
   },
   {
@@ -109,11 +109,11 @@ function App() {
                     className="w-48 h-48 rounded-full mx-auto mb-6 object-cover object-right"
                   />
                   <h1 className="text-4xl font-bold mb-4">Rohan Srivastava</h1>
-                  <p className="text-xl text-gray-600 mb-8">Chasing the Why in The How</p>
-                  <p className="text-gray-600 max-w-2xl mx-auto">
-                  I'm thrilled to be an MBA candidate at Chicago Booth, focusing on Entrepreneurship and Analytics! 
-                  With 5+ years in product management and data science, I've driven amazing results – from managing a $250B+ fraud prevention platform at Goldman Sachs to achieving 1000% efficiency gains with GenAI at Braintrust Data. 
-                  I'm passionate about ML, NLP, and LLMs, ready to drive innovation!
+                  <p className="text-xl text-gray-600 mb-8">Innovate. Execute. Deliver.</p>
+                  <p className="text-gray-600 max-w-7xl mx-auto">
+                  Welcome to my portfolio! I'm Rohan Srivastava, a seasoned product manager with a passion for innovation and technology. 
+                  With 5+ years in product management and data science, I've driven by innovation at scale. From launching Apple Card and GM Card at Goldman Sachs, to helping generative AI infrastructure startups like Braintrust Data find target customers, I enjoy working on novel problems that require innovation and immaculate execution. 
+                  This website is a collection of my work, and my thoughts on the future of technology as seen from a product manager's perspective.
                   </p>
                 </div>
               </section>
@@ -191,8 +191,8 @@ function App() {
                     <div className="bg-white p-6 rounded-lg shadow">
                       <h3 className="text-xl font-semibold mb-2">Blog Post Title</h3>
                       <p className="text-gray-600 mb-4">Date</p>
-                      <p className="mb-4">Brief excerpt from your blog post...</p>
-                      <a href="#" className="text-blue-600 hover:underline">Read more →</a>
+                      <p className="mb-4">Coming Soon...</p>
+                      <a href="#" className="text-blue-600 hover:underline">Don't Read more →</a>
                     </div>
                   </div>
                 </div>
