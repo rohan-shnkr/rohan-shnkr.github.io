@@ -8,7 +8,6 @@ import Project3 from './components/projects/Project3';
 import Project4 from './components/projects/Project4';
 import Project5 from './components/projects/Project5';
 import Project6 from './components/projects/Project6';
-import Project7 from './components/projects/Project7';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const projects = [
@@ -42,24 +41,17 @@ const projects = [
   },
   {
     id: 5,
-    title: "Call Classification",
+    title: "Call Classification with NLP",
     description: "NLP-model to help accelerate customer service",
-    techStack: ["React", "Node.js", "MongoDB"],
+    techStack: ["Machine Learning", "Customer Support", "AI Automation"],
     link: "/call-classification"
   },
   {
     id: 6,
-    title: "Price Optimization in Offline Retail",
+    title: "Optimizing Revenue in Semi-Luxury Retail",
     description: "A price indexing tool for dynamic pricing in stores",
-    techStack: ["React", "Node.js", "MongoDB"],
+    techStack: ["Machine Learning", "Pricing Optimization", "Retail Analytics"],
     link: "/price-optimization-in-offline-retail"
-  },
-  {
-    id: 7,
-    title: "Carbon Footprint Reduction in Multi-Modal Supply Chain",
-    description: "A route optimization for large-scale supply chain to reduce carbon footprint",
-    techStack: ["React", "Node.js", "MongoDB"],
-    link: "/carbon-footprint-reduction"
   }
 ];
 
@@ -235,7 +227,6 @@ function App() {
           <Route path="/device-fingerprinting" element={<Project4 />} />
           <Route path="/call-classification" element={<Project5 />} />
           <Route path="/price-optimization-in-offline-retail" element={<Project6 />} />
-          <Route path="/carbon-footprint-reduction" element={<Project7 />} />
         </Routes>
       </Router>
     </HelmetProvider>
