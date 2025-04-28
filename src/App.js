@@ -201,10 +201,10 @@ function App() {
                     <a href={`mailto:${process.env.REACT_APP_CONTACT_EMAIL}`} className="text-blue-600 hover:underline">
                       Email
                     </a>
-                    <a href="https://www.linkedin.com/in/srivastava-rohan/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                    <a href="https://www.linkedin.com/in/srivastava-rohan/" target="_blank" rel="noopener noreferrer noreferrer" className="text-blue-600 hover:underline">
                       LinkedIn
                     </a>
-                    <a href="https://github.com/rohan-shnkr" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                    <a href="https://github.com/rohan-shnkr" target="_blank" rel="noopener noreferrer noreferrer" className="text-blue-600 hover:underline">
                       GitHub
                     </a>
                   </div>
