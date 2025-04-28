@@ -198,13 +198,13 @@ function App() {
                     Feel free to reach out for collaborations or just a friendly hello
                   </p>
                   <div className="flex justify-center space-x-4">
-                    <a href="mailto:your@email.com" className="text-blue-600 hover:underline">
+                    <a href={`mailto:${process.env.REACT_APP_CONTACT_EMAIL}`} className="text-blue-600 hover:underline">
                       Email
                     </a>
-                    <a href="#" className="text-blue-600 hover:underline">
+                    <a href="https://www.linkedin.com/in/srivastava-rohan/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
                       LinkedIn
                     </a>
-                    <a href="#" className="text-blue-600 hover:underline">
+                    <a href="https://github.com/rohan-shnkr" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
                       GitHub
                     </a>
                   </div>
